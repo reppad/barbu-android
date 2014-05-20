@@ -21,7 +21,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="65dp"
-        android:text="Button"
-        android:onClick="nouvellePartie" />
+        android:onClick="nouvellePartie"
+        android:text="@string/nouvelle_partie" />
 
 </RelativeLayout>

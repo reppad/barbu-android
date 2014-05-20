@@ -9,8 +9,18 @@
     tools:context=".JeuActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/description_image_carte"
+        android:onClick="nouvelleCarte" />
 
 </RelativeLayout>

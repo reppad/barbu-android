@@ -1,21 +1,21 @@
 package com.reppad.barbu.model;
 
 public class Carte {
-	private String nom;
+	private int idRessource;
 	private Regle regle;
 	
-	public Carte(String nom, Regle regle) {
+	public Carte(int idRessource, Regle regle) {
 		super();
-		this.nom = nom;
+		this.idRessource = idRessource;
 		this.regle = regle;
 	}
-	
-	public String getNom() {
-		return nom;
+
+	public int getIdRessource() {
+		return idRessource;
 	}
+
 	public Regle getRegle() {
 		return regle;
 	}
-	
 	
 }
