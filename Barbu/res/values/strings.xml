@@ -3,9 +3,86 @@
 
     <string name="app_name">Barbu</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title_activity_jeu">JeuActivity</string>
     <string name="nouvelle_partie">Nouvelle Partie</string>
     <string name="description_image_carte">Image de la carte à jouer</string>
-
+    <string name="partie_terminee">Partie terminée !</string>
+    
+    <!-- Description courte des regles -->
+	<string name="regle_as">
+   	Distribue une gorgée
+   	</string>
+	<string name="regle_2">
+	Bois une gorgée
+   	</string>
+	<string name="regle_3456">
+	Distribue 3, 4, 5 ou 6 gorgées
+   	</string>
+	<string name="regle_7">
+	Jeu du je n\'ai jamais
+   	</string>
+	<string name="regle_8">
+	Nouvelle règle
+   	</string>
+	<string name="regle_9">
+	Jeu des marques
+   	</string>
+	<string name="regle_10">
+	Jeu des lettres
+   	</string>
+	<string name="regle_valet">
+	Distribue un cul-sec
+   	</string>
+	<string name="regle_dame">
+	Le voisin de droite boit
+   	</string>
+	<string name="regle_roi">
+	Roi des pouces
+   	</string>
+    
+    <!-- Description detaillee des regles -->
+	<string name="regle_detail_as">
+   	Le joueur distribue une gorgée à un autre joueur.
+   	</string>
+	<string name="regle_detail_2">
+	Le joueur boit une gorgée.
+   	</string>
+	<string name="regle_detail_3456">
+	Le joueur distribue autant de gorgées que la valeur de la carte. Les gorgées peuvent être partagées entre plusieurs joueurs.
+   	</string>
+	<string name="regle_detail_7">
+	Jeu du "Je n\'ai jamais" :
+	Attention, ce jeu révèle vos secrets : pour que le jeu soit amusant, tout le monde doit être franc&#8230;
+	Le premier joueur énonce une vérité le concernant en commençant par "Je n'ai jamais&#8230;", par exemple : "Je n'ai jamais eu 2 copines en même temps". Si un des autres joueurs a déjà eu 2 copines en même temps, il boit.
+	Soyez inventif et révélez tous les petits secrets inavouables de vos amis en picolant !
+   	</string>
+	<string name="regle_detail_8">
+	Le joueur invente une nouvelle règle. (duel, vouvoiement, main gauche)
+   	</string>
+	<string name="regle_detail_9">
+	Jeu des marques :
+	le joueur donne une marque de n\'importe quoi (voiture, vêtement, bière&#8230;), et chacun leur tour les autres joueurs doivent citer d\'autres marques concurrentes. Le premier qui se trompe ou ne trouve pas boit son verre.
+   	</string>
+	<string name="regle_detail_10">
+	Jeu des lettres :
+	Le principe de ce jeu est très simple : chaque joueur chacun son tour doit énoncer une lettre pour former un mot. Si le joueur ne trouve pas de lettre, il peut bluffer (fortement conseillé) .
+	Le joueur boit si :
+		* il ne trouve pas de lettre qui pourrait continuer à former un mot (1 gorgée)
+		* il bluffe et est découvert par le joueur suivant (2 gorgées)
+		* il pense que le joueur précédent bluffait, lui demande à quel mot il pensait et ce mot est juste (3 gorgées)
+	
+	(Peut être remplacé par "j'ai dans ma valise")
+   	</string>
+	<string name="regle_detail_valet">
+	Le joueur distribue un cul-sec
+   	</string>
+	<string name="regle_detail_dame">
+	Le voisin de droite du joueur boit une gorgée
+   	</string>
+	<string name="regle_detail_roi">
+	Le joueur qui tire un roi devient roi des pouces, c\'est-à-dire qu\'à tout moment, il peut placer son pouce sur son menton et tous les joueurs doivent l\'imiter. Le dernier à l\'imiter boit une gorgée.
+	Le roi des pouces peut faire ce geste autant de fois qu\'il le veut. Si de l\'avis général, il l\'utilise trop, le groupe peut décider de lui retirer son rôle de roi des pouces.
+	Attention, il ne peut y avoir qu\'un seul roi des pouces : un nouveau roi tiré remplace le précédent roi des pouces.
+   	</string>
+    
 </resources>

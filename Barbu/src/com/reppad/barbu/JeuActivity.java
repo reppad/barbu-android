@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.reppad.barbu.model.Carte;
 import com.reppad.barbu.model.Partie;
@@ -19,7 +20,7 @@ public class JeuActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_jeu);
 
-		partie = new Partie();
+		partie = new Partie(this);
 	}
 
 	@Override
@@ -33,7 +34,8 @@ public class JeuActivity extends Activity {
 		Carte cartePiochee = partie.piocher();
 		if (cartePiochee == null) {
 			// partie terminee
-			// TODO
+			Toast toast = Toast.makeText(this, getString(R.string.partie_terminee), Toast.LENGTH_LONG);
+			toast.show();
 		} else {
 			//animation lors du changement de carte
 			//http://developer.android.com/guide/topics/graphics/view-animation.html
