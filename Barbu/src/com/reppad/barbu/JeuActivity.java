@@ -14,6 +14,7 @@ import com.reppad.barbu.model.Partie;
 public class JeuActivity extends Activity {
 
 	Partie partie;
+	Carte cartePiochee;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,19 +32,27 @@ public class JeuActivity extends Activity {
 	}
 
 	public void nouvelleCarte(View view) {
-		Carte cartePiochee = partie.piocher();
-		if (cartePiochee == null) {
+		Carte nouvelleCarte = partie.piocher();
+		if (nouvelleCarte == null) {
 			// partie terminee
 			Toast toast = Toast.makeText(this, getString(R.string.partie_terminee), Toast.LENGTH_LONG);
 			toast.show();
 		} else {
+			cartePiochee = nouvelleCarte;
 			//animation lors du changement de carte
 			//http://developer.android.com/guide/topics/graphics/view-animation.html
 			//http://developer.android.com/guide/topics/resources/animation-resource.html#Tween
-			TextView nomRegle = (TextView) findViewById(R.id.textView1);
-			ImageView imagecarte = (ImageView) findViewById(R.id.imageView1);
+			TextView nomRegle = (TextView) findViewById(R.id.titre);
+			ImageView imagecarte = (ImageView) findViewById(R.id.imageCarte);
 			nomRegle.setText(cartePiochee.getRegle().getNom());
 			imagecarte.setImageResource(cartePiochee.getIdRessource());
+		}
+	}
+
+	public void afficherRegle(View view) {
+		if (cartePiochee != null) {
+			Toast toast = Toast.makeText(this, cartePiochee.getRegle().getDetail(), Toast.LENGTH_LONG);
+			toast.show();
 		}
 	}
 

@@ -5,7 +5,8 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_jeu">JeuActivity</string>
     <string name="nouvelle_partie">Nouvelle Partie</string>
-    <string name="description_image_carte">Image de la carte à jouer</string>
+    <string name="description_image_carte">Cliquez ici pour Jouer</string>
+    <string name="description_bouton_regle">Cliquez ici pour afficher la règle</string>
     <string name="partie_terminee">Partie terminée !</string>
     
     <!-- Description courte des regles -->
