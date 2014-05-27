@@ -8,21 +8,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".JeuActivity" >
 
-    <TextView
-        android:id="@+id/titre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name" />
-
     <ImageView
         android:id="@+id/boutonRegle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignRight="@+id/imageCarte"
-        android:layout_alignTop="@+id/titre"
         android:contentDescription="@string/description_bouton_regle"
         android:src="@drawable/question64"
         android:onClick="afficherRegle" />
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/app_name" />
 
     <TextView
         android:id="@+id/texteCliquer"
