@@ -8,16 +8,27 @@
     <string name="description_image_carte">Cliquez ici pour Jouer</string>
     <string name="description_bouton_regle">Cliquez ici pour afficher la règle</string>
     <string name="partie_terminee">Partie terminée !</string>
+    <string name="detail_regle">Règle détaillée</string>
+    <string name="piocher_carte">Veuillez piocher une carte pour commencer la partie.</string>
     
     <!-- Description courte des regles -->
 	<string name="regle_as">
-   	Distribue une gorgée
+	Distribue une gorgée
    	</string>
 	<string name="regle_2">
 	Bois une gorgée
    	</string>
-	<string name="regle_3456">
-	Distribue 3, 4, 5 ou 6 gorgées
+	<string name="regle_3">
+	Distribue 3 gorgées
+   	</string>
+	<string name="regle_4">
+	Distribue 4 gorgées
+   	</string>
+	<string name="regle_5">
+	Distribue 5 gorgées
+   	</string>
+	<string name="regle_6">
+	Distribue 6 gorgées
    	</string>
 	<string name="regle_7">
 	Jeu du je n\'ai jamais
@@ -48,29 +59,42 @@
 	<string name="regle_detail_2">
 	Le joueur boit une gorgée.
    	</string>
-	<string name="regle_detail_3456">
-	Le joueur distribue autant de gorgées que la valeur de la carte. Les gorgées peuvent être partagées entre plusieurs joueurs.
+	<string name="regle_detail_3">
+	Le joueur distribue 3 gorgées.\n
+	Les gorgées peuvent être partagées entre plusieurs joueurs.
    	</string>
+	<string name="regle_detail_4">
+	Le joueur distribue 4 gorgées.\n
+	Les gorgées peuvent être partagées entre plusieurs joueurs.
+	</string>
+	<string name="regle_detail_5">
+	Le joueur distribue 5 gorgées.\n
+	Les gorgées peuvent être partagées entre plusieurs joueurs.
+	</string>
+	<string name="regle_detail_6">
+	Le joueur distribue 6 gorgées.\n
+	Les gorgées peuvent être partagées entre plusieurs joueurs.
+	</string>
 	<string name="regle_detail_7">
-	Jeu du "Je n\'ai jamais" :
-	Attention, ce jeu révèle vos secrets : pour que le jeu soit amusant, tout le monde doit être franc&#8230;
-	Le premier joueur énonce une vérité le concernant en commençant par "Je n'ai jamais&#8230;", par exemple : "Je n'ai jamais eu 2 copines en même temps". Si un des autres joueurs a déjà eu 2 copines en même temps, il boit.
+	Jeu du "Je n\'ai jamais" :\n
+	Attention, ce jeu révèle vos secrets : pour que le jeu soit amusant, tout le monde doit être franc&#8230;\n
+	Le premier joueur énonce une vérité le concernant en commençant par "Je n'ai jamais&#8230;", par exemple : "Je n'ai jamais eu 2 copines en même temps". Si un des autres joueurs a déjà eu 2 copines en même temps, il boit.\n
 	Soyez inventif et révélez tous les petits secrets inavouables de vos amis en picolant !
    	</string>
 	<string name="regle_detail_8">
 	Le joueur invente une nouvelle règle. (duel, vouvoiement, main gauche)
    	</string>
 	<string name="regle_detail_9">
-	Jeu des marques :
+	Jeu des marques :\n
 	le joueur donne une marque de n\'importe quoi (voiture, vêtement, bière&#8230;), et chacun leur tour les autres joueurs doivent citer d\'autres marques concurrentes. Le premier qui se trompe ou ne trouve pas boit son verre.
    	</string>
 	<string name="regle_detail_10">
-	Jeu des lettres :
-	Le principe de ce jeu est très simple : chaque joueur chacun son tour doit énoncer une lettre pour former un mot. Si le joueur ne trouve pas de lettre, il peut bluffer (fortement conseillé) .
-	Le joueur boit si :
-		* il ne trouve pas de lettre qui pourrait continuer à former un mot (1 gorgée)
-		* il bluffe et est découvert par le joueur suivant (2 gorgées)
-		* il pense que le joueur précédent bluffait, lui demande à quel mot il pensait et ce mot est juste (3 gorgées)
+	Jeu des lettres :\n
+	Le principe de ce jeu est très simple : chaque joueur chacun son tour doit énoncer une lettre pour former un mot. Si le joueur ne trouve pas de lettre, il peut bluffer (fortement conseillé) .\n
+	Le joueur boit si :\n
+		* il ne trouve pas de lettre qui pourrait continuer à former un mot (1 gorgée)\n
+		* il bluffe et est découvert par le joueur suivant (2 gorgées)\n
+		* il pense que le joueur précédent bluffait, lui demande à quel mot il pensait et ce mot est juste (3 gorgées)\n
 	
 	(Peut être remplacé par "j'ai dans ma valise")
    	</string>
@@ -81,8 +105,8 @@
 	Le voisin de droite du joueur boit une gorgée
    	</string>
 	<string name="regle_detail_roi">
-	Le joueur qui tire un roi devient roi des pouces, c\'est-à-dire qu\'à tout moment, il peut placer son pouce sur son menton et tous les joueurs doivent l\'imiter. Le dernier à l\'imiter boit une gorgée.
-	Le roi des pouces peut faire ce geste autant de fois qu\'il le veut. Si de l\'avis général, il l\'utilise trop, le groupe peut décider de lui retirer son rôle de roi des pouces.
+	Le joueur qui tire un roi devient roi des pouces, c\'est-à-dire qu\'à tout moment, il peut placer son pouce sur son menton et tous les joueurs doivent l\'imiter. Le dernier à l\'imiter boit une gorgée.\n
+	Le roi des pouces peut faire ce geste autant de fois qu\'il le veut. Si de l\'avis général, il l\'utilise trop, le groupe peut décider de lui retirer son rôle de roi des pouces.\n
 	Attention, il ne peut y avoir qu\'un seul roi des pouces : un nouveau roi tiré remplace le précédent roi des pouces.
    	</string>
     

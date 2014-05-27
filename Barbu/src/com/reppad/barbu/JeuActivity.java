@@ -1,6 +1,8 @@
 package com.reppad.barbu;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
@@ -50,8 +52,20 @@ public class JeuActivity extends Activity {
 	}
 
 	public void afficherRegle(View view) {
-		if (cartePiochee != null) {
-			Toast toast = Toast.makeText(this, cartePiochee.getRegle().getDetail(), Toast.LENGTH_LONG);
+		if (cartePiochee != null) {			
+			AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
+			alertDialogBuilder.setTitle(getString(R.string.detail_regle));
+			alertDialogBuilder
+			.setMessage(cartePiochee.getRegle().getDetail())
+			.setPositiveButton("OK",new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog,int id) {
+					dialog.cancel();
+				}
+			});
+			AlertDialog alertDialog = alertDialogBuilder.create();
+			alertDialog.show();
+		} else {
+			Toast toast = Toast.makeText(this, getString(R.string.piocher_carte), Toast.LENGTH_SHORT);
 			toast.show();
 		}
 	}

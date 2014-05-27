@@ -21,7 +21,7 @@
         android:layout_alignRight="@+id/imageCarte"
         android:layout_alignTop="@+id/titre"
         android:contentDescription="@string/description_bouton_regle"
-        android:src="@drawable/question48"
+        android:src="@drawable/question64"
         android:onClick="afficherRegle" />
 
     <TextView
