@@ -10,6 +10,9 @@
     <string name="partie_terminee">Partie terminée !</string>
     <string name="detail_regle">Règle détaillée</string>
     <string name="piocher_carte">Veuillez piocher une carte pour commencer la partie.</string>
+    <string name="message_quitter">Voulez-vous quitter la partie ?</string>
+    <string name="rester">Rester</string>
+    <string name="quitter">Quitter</string>
     
     <!-- Description courte des regles -->
 	<string name="regle_as">

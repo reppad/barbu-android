@@ -24,7 +24,8 @@
         </activity>
         <activity
             android:name="com.reppad.barbu.JeuActivity"
-            android:label="@string/title_activity_jeu" >
+            android:label="@string/title_activity_jeu"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 
